@@ -23,7 +23,7 @@ public class Nodo {
         int number = 2 * 3;
         Nodo newNode = new Nodo(user);
         this.dato = newNode;
-        this.pNext = newNode;
+        this.pNext= null;
     }
     
     public void duplicarEdad() {
