@@ -14,6 +14,12 @@ public class User {
     private String firstName;
     private String lastName;
 
+    public User(int age, String firstName, String lastName) {
+        this.age = age;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+    
     /**
      * @return the age
      */
