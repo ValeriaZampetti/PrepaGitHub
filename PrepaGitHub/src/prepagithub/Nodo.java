@@ -17,6 +17,14 @@ public class Nodo {
         pNext = null;
     }
 
+    public Nodo() {
+        this.dato= null;
+        this.pNext= null;
+    }
+    
+    
+    
+
     public Object getDato() {
         return dato;
     }
